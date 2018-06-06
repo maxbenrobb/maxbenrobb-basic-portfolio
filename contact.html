@@ -24,26 +24,29 @@
     </header>
 
     <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
+        <section class="main-conatiner">
+            <h1>Contact</h1>
 
-            <img src="assets/images/max.jpg" class="auth-image" alt="Picture of Max">
-
-            <p>I spent my first year after college in advocacy promoting a cause I 
-            believe in. I spoke at events, organized volunteers, and gathered 
-            signatures. I followed that by starting a company which generated 
-            a net profit in its first year. I now want to incorporate my knowledge 
-            of JavaScript, Handlebars, and MySQL with my ability to manage and 
-            deliver projects on schedule. I look forward to working as a front 
-            end developer and growing into a project manager.</p>
-
-            <p>Web development is a tool all businesses rely on. With my new passion 
-            coding and long standing drive to succeed in business, I can quickly become 
-            an asset to any company. Aside from business and coding, I am an active 
-            person who loves the outdoors. Before pursuing more serious career goals
-            I was a successful road cyclist. I am a five time state champion in North 
-            Carolina. I have always had the desire and ability to succeed in whatever I 
-            devote myself too.</p>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"
+                        placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"
+                        placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"
+                        required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
 
         </section>
 
